@@ -15,7 +15,6 @@ if (value >= 53) {
 //3. Create a string that is set to 11, add it to 'value'
 
 var s = '11';
-
 value += s;
 
 //4. Create an array, loop through 'value' using charAt, set array[i] to each value
@@ -29,7 +28,6 @@ for (var i = 0; i < value.length; i++) {
 //5. Remove the first and last values off the array
 
 array.pop();
-
 array.shift();
 
 //******* SWITCH PROGRAMMERS *******
@@ -79,7 +77,6 @@ function convertString(val) {
 	val = val.toString();
 	if (val.length > 1) {
 		val = val.slice(1);
-		console.log(val);
 	}
 	return val;
 }
